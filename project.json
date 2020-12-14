@@ -1,0 +1,57 @@
+{
+  "name": "Invoice-Document Understanding Demo",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.DocumentUnderstanding.ML.Activities": "[1.5.0]",
+    "UiPath.Excel.Activities": "[2.9.3-beta.1172659]",
+    "UiPath.IntelligentOCR.Activities": "[4.10.0]",
+    "UiPath.Mail.Activities": "[1.9.3-beta.1176588]",
+    "UiPath.OmniPage.Activities": "[1.7.0]",
+    "UiPath.System.Activities": "[20.10.1-beta.1178848]",
+    "UiPath.UIAutomation.Activities": "[20.10.3-preview]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.0.0",
+  "projectVersion": "1.0.11",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": true,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "0cf9243c-3dbb-45f1-bad2-6ef2879576ff",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
